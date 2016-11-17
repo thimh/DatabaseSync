@@ -16,7 +16,7 @@ namespace MicrosoftSyncFramework_Server
 
         private static string sClientConnection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ParkInspect_Client.mdf;Integrated Security=True";//@"Data Source=Client\MSSQL2008;Initial Catalog=Company;Persist Security Info=False;User ID=sa;Password=password;Connect Timeout=60";
 
-        static string sScope = "UsersScope";
+        static string sScope = "UsersScope2";
 
         static void Main(string[] args)
         {
