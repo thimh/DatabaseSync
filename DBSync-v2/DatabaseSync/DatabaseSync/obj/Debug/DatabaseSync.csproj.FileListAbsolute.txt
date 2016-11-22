@@ -24,3 +24,6 @@ C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\Microsoft.
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.csprojResolveAssemblyReference.cache
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.exe
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.pdb
+C:\Users\Heider\Desktop\DatabaseSync\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\DatabaseSync.exe.config
+C:\Users\Heider\Desktop\DatabaseSync\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.exe
+C:\Users\Heider\Desktop\DatabaseSync\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.pdb
