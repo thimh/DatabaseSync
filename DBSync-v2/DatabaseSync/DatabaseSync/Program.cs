@@ -8,16 +8,23 @@ namespace MicrosoftSyncFramework_Server
 {
     class Program
     {
-        private static string sServerConnection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Server.mdf;Integrated Security=True";//@"Data Source=Server\MSSQL2008;Initial Catalog=Company;Persist Security Info=False;User ID=sa;Password=password;Connect Timeout=60";
+        private static string sServerConnection = @"Data Source=THIM-PC;Initial Catalog=SyncClient;Integrated Security=True";//@"Data Source=Server\MSSQL2008;Initial Catalog=Company;Persist Security Info=False;User ID=sa;Password=password;Connect Timeout=60";
 
-        private static string sClientConnection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Client.mdf;Integrated Security=True";//@"Data Source=Client\MSSQL2008;Initial Catalog=Company;Persist Security Info=False;User ID=sa;Password=password;Connect Timeout=60";
+        private static string sClientConnection = @"Data Source=THIM-PC;Initial Catalog=SyncServer;Integrated Security=True";//@"Data Source=Client\MSSQL2008;Initial Catalog=Company;Persist Security Info=False;User ID=sa;Password=password;Connect Timeout=60";
 
         static string sScope = "UsersScope";
 
+        static DateTime timeNow;
+
         static void Main(string[] args)
         {
+            timeNow = DateTime.Now;
+
+            sScope = sScope + "" + timeNow.ToString();
+
             ProvisionServer();
             ProvisionClient();
+
             Sync();
         }
 

@@ -44,5 +44,25 @@ namespace DatabaseSync.Properties {
                 return ((string)(this["ServerConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=THIM-PC;Initial Catalog=SyncClient;Integrated Security=True")]
+        public string SyncClientConnectionString {
+            get {
+                return ((string)(this["SyncClientConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=THIM-PC;Initial Catalog=SyncServer;Integrated Security=True")]
+        public string SyncServerConnectionString {
+            get {
+                return ((string)(this["SyncServerConnectionString"]));
+            }
+        }
     }
 }

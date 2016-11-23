@@ -1,8 +1,4 @@
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\DatabaseSync.exe.config
-C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\Client.mdf
-C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\Client_log.ldf
-C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\Server.mdf
-C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\Server_log.ldf
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\DatabaseSync.exe
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\DatabaseSync.pdb
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\Microsoft.Synchronization.Data.dll
@@ -24,6 +20,3 @@ C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\Microsoft.
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.csprojResolveAssemblyReference.cache
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.exe
 C:\Users\Heider\Desktop\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.pdb
-C:\Users\Heider\Desktop\DatabaseSync\DBSync-v2\DatabaseSync\DatabaseSync\bin\Debug\DatabaseSync.exe.config
-C:\Users\Heider\Desktop\DatabaseSync\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.exe
-C:\Users\Heider\Desktop\DatabaseSync\DBSync-v2\DatabaseSync\DatabaseSync\obj\Debug\DatabaseSync.pdb
